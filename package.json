@@ -1,0 +1,11 @@
+{
+  "name": "service-booking",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd client && npm run build",
+    "dev": "cd client && npm run dev",
+    "install:client": "cd client && npm install"
+  },
+  "devDependencies": {}
+}

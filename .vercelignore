@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these
+!client
+!superbase
+!vercel.json
+!README.md
+!LICENSE
