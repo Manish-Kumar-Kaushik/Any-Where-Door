@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowUnusedLabels": true,
+    "lib": ["deno.window"],
+    "strict": true
+  },
+  "imports": {
+    "http/server": "./types/http_server.d.ts"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-env index.ts"
+  }
+}
